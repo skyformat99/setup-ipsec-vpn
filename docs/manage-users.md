@@ -18,7 +18,7 @@ For `IPsec/L2TP`, VPN users are specified in `/etc/ppp/chap-secrets`. The format
 ... ...
 ```
 
-You can add more users, use one line for each user. DO NOT use these characters within values: `\ " '`
+You can add more users, use one line for each user. DO NOT use these special characters within values: `\ " '`
 
 For `IPsec/XAuth ("Cisco IPsec")`, VPN users are specified in `/etc/ipsec.d/passwd`. The format of this file is:
 
@@ -35,7 +35,7 @@ Passwords in this file are salted and hashed. This step can be done using e.g. t
 openssl passwd -1 'your_vpn_password_1'
 ```
 
-When finished, restart services:
+Finally, restart services if you changed to a new PSK. For add, edit or remove VPN users, a restart is normally not required.
 
 ```bash
 service ipsec restart
