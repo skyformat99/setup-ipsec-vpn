@@ -2,7 +2,7 @@
 
 *其他语言版本: [English](clients-xauth.md), [简体中文](clients-xauth-zh.md).*
 
-**注：** 你也可以使用 [IPsec/L2TP 模式](clients-zh.md) 连接，或者配置 [IKEv2](ikev2-howto-zh.md)。
+**注：** 你也可以使用 **[IPsec/L2TP 模式](clients-zh.md)** 连接，或者配置 **[IKEv2](ikev2-howto-zh.md)**。
 
 在成功<a href="https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md" target="_blank">搭建自己的 VPN 服务器</a>之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 <a href="https://www.shrew.net/download/vpn" target="_blank">Shrew Soft 客户端</a>。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。
 
@@ -59,6 +59,8 @@ VPN 连接成功后，你会在 VPN Connect 状态窗口中看到 **tunnel enabl
 
 要连接到 VPN： 使用菜单栏中的图标，或者打开系统偏好设置的网络部分，选择 VPN 并单击 **连接**。最后你可以到 <a href="https://www.ipchicken.com" target="_blank">这里</a> 检测你的 IP 地址，应该显示为`你的 VPN 服务器 IP`。
 
+如果在连接过程中遇到错误，请参见 <a href="clients-zh.md#故障排除" target="_blank">故障排除</a>。
+
 ## Android
 
 1. 启动 **设置** 应用程序。
@@ -96,6 +98,8 @@ VPN 连接成功后，会在通知栏显示图标。最后你可以到 <a href="
 1. 启用 **VPN** 连接。
 
 VPN 连接成功后，会在通知栏显示图标。最后你可以到 <a href="https://www.ipchicken.com" target="_blank">这里</a> 检测你的 IP 地址，应该显示为`你的 VPN 服务器 IP`。
+
+如果在连接过程中遇到错误，请参见 <a href="clients-zh.md#故障排除" target="_blank">故障排除</a>。
 
 ## 致谢
 
